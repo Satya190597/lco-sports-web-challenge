@@ -1,4 +1,56 @@
 .carousel-item {
     height: 500px;
+    min-height: 500px;
     overflow: hidden;
 }
+
+
+#lcoHomePageHeaderContent {
+    left: 0;
+    top: 0;
+    position: absolute;
+    background-color: rgba(165, 105, 189,0.2);
+    z-index: 10;
+    width: 100%;
+    height: 500px;
+    min-height: 500px;
+    max-height: 500px;
+}
+
+#lcoHeaderContentText {
+    margin-top: 10%;
+    margin-left: 10%;
+    font-family: Verdana;
+    font-weight: bolder;
+    color: white;
+}
+#lcoHeaderContentText h1
+{
+    font-size: 90px;
+}
+#lcoHeaderContentText h3
+{
+    font-size: 50px;
+}
+@media only screen and (max-width: 500px){
+    #lcoHomePageHeaderContent {
+        height: 200px;
+        max-height: 200px;
+        min-height: 200px;
+    }
+    .carousel-item {
+        height: 200px;
+        min-height: 200px;
+        overflow: hidden;
+    }
+    #lcoHeaderContentText h1
+    {
+        font-size: 30px;
+    }
+    #lcoHeaderContentText h3
+    {
+        font-size: 20px;
+    }
+    
+}
+
